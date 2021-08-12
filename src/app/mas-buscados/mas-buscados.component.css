@@ -1,4 +1,12 @@
+.card {
+    background-color: cornsilk;
+    align-items: center;
+}
 
+.form {
+    padding-top: 1mm; 
+    padding-bottom: 5mm;
+}
 
 #titulo{
     color: blanchedalmond; 
@@ -6,25 +14,6 @@
     padding-bottom: 12px;
 }
 
-#datosPersonales{
-    /* background-color: rgba(156, 44, 0, 0.582); */
-    background-color: rgb(255, 206, 142);
-    padding-bottom: 25px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-}
-#inputGroupSelect02{
-    margin-left: 8px;
-}
-#cancion{
-    /* background-color: rgba(156, 44, 0, 0.582); */
-    background-color: rgb(255, 206, 142);
-    padding-top: 20px;
-    padding-bottom: 25px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
 body{margin-top:20px;}
 
