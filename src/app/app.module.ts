@@ -14,6 +14,7 @@ import { LoginComponent } from './login/login.component';
     SubirTemaComponent,
     GenerosComponent,
     ArtistasComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
