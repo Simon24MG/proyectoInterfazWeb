@@ -3,15 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { SubirTemaComponent } from './subirTema/subir-tema/subir-tema.component';
-import { GenerosComponent } from './generos/generos/generos.component';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { GenerosComponent } from './generos/generos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SubirTemaComponent,
-    GenerosComponent,
     HomeComponent
   ],
   imports: [
