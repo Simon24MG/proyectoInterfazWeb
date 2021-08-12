@@ -20,7 +20,7 @@
 #cancion{
     /* background-color: rgba(156, 44, 0, 0.582); */
     background-color: rgb(239, 175, 170);
-    padding-top: 20px;
+    padding-top: 5px;
     padding-bottom: 25px;
     padding-left: 10px;
     padding-right: 10px;
@@ -203,4 +203,10 @@ h2 {
 .btn-success:hover {
     border-color: #dd3d31;
     background-color: #a7140a;
+}
+
+h5 {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
