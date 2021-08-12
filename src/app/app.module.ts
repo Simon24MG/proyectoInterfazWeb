@@ -1,16 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
-import { SubirTemaComponent } from './subirTema/subir-tema/subir-tema.component';
-import { RouterModule } from '@angular/router';
+import { AppComponent } from './app.component';import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { GenerosComponent } from './generos/generos.component';
+import { SubirTemaComponent } from './subirTema/subir-tema.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SubirTemaComponent,
     HomeComponent
   ],
   imports: [
