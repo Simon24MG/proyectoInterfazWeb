@@ -3,10 +3,15 @@
     align-items: center;
 }
 
-
 .form {
     padding-top: 1mm; 
     padding-bottom: 5mm;
+}
+
+#titulo{
+    color: blanchedalmond; 
+    text-align: center; 
+    padding-bottom: 12px;
 }
 
 
