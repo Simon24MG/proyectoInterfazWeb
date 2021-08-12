@@ -1,11 +1,140 @@
-<div id="contenido">
-    <h1 id="titulo">Subír Tema</h1>
-    <h2>Hoy estarás a punto de cambiar la vida de otro músico con tu aporte, es por esto que todos te lo agradecemos
-    </h2>
 
-    <div class="card">
-        <div class="card-body">
-            
+<div id="contenido">
+    <div class="card bg-dark text-white">
+        <img src="../assets/notassss.jpg" class="card-img" height="320px" id="imagen">
+        <div class="card-img-overlay">
+            <h1 class="card-title col-auto" id="titulo"><strong>Sube tu gran aporte</strong></h1>
+            <p class="card-text" id="subTitulo"><strong>Hoy con tus conocimientos estas a punto de cambiar la vida de un
+                    músico</strong></p>
         </div>
     </div>
+
+    <!--div class="card" id="formulario"-->
+        <!--div class="card-body"-->
+            <form id="formulario">
+                <h4 style="text-align: center;">Completa los campos para subir tu archivo</h4>
+                <br>
+                <div class="card" id="datosPersonales">
+                    <h5>Datos personales</h5>
+                    <div class="form-group row">
+                        <label class="col-4 col-form-label"><b>Nombre</b></label>
+                        <div class="col-8">
+                            <input class="form-control" type="text" placeholder="Juan Perez" required>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group row">
+                        <label class="col-4 col-form-label"><b>Correo</b></label>
+                        <div class="col-8">
+                            <input class="form-control" type="email" placeholder="juan@gmail.com" required>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <div class="card" id="cancion"> 
+                    <h5>Datos del archivo</h5>
+                    <div class="form-group row">
+                        <label class="col-4 col-form-label"><b>Nombre de la canción</b></label>
+                        <div class="col-8">
+                            <input class="form-control" type="text" placeholder="Old love" required>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group row">
+                        <label class="col-4 col-form-label"><b>Nombre del artista</b></label>
+                        <div class="col-8">
+                            <input class="form-control" type="text" placeholder="Eric Clapton" required>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="input-group mb-2">
+                        <label class="col-4 col-form-label"><b>Género Musical</b></label>
+                        <select class="form-select" id="inputGroupSelect02" required>
+                            <option selected>Escoge el género musical</option>
+                            <option value="musica clasica">Música Clásica</option>
+                            <option value="blues">Blues</option>
+                            <option value="jazz">Jazz</option>
+                            <option value="Rhythm and Blues"> Rhythm and Blues</option>
+                            <option value="Rock and Roll">Rock and Roll</option>
+                            <option value="Gospel">Gospel</option>
+                            <option value="Soul">Soul</option>
+                            <option value="Rock">Rock</option>
+                            <option value="Metal">Metal</option>
+                            <option value="Hadcore punk">Hadcore punk</option>
+                            <option value="Country">Country</option>
+                            <option value="Funk">Funk</option>
+                            <option value="Disco">Disco</option>
+                            <option value="House">House</option>
+                            <option value="Techno">Techno</option>
+                            <option value="Pop">Pop</option>
+                            <option value="Ska">Ska</option>
+                            <option value="Reggae">Reggae</option>
+                            <option value="Drum and Bass">Drum and Bass</option>
+                            <option value="Garage">Garage</option>
+                            <option value="Flamenco">Flamenco</option>
+                            <option value="Salsa">Salsa</option>
+                            <option value="Hip Hop">Hip Hop</option>
+                            <option value="Reggaeton">Reggaeton</option>
+                            <option value="Instrumental">Instrumental</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="form-check">
+                        <p><b>Seleccione la complejidad en la que están las partituras o acordes</b></p>
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"
+                            required>
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Facil
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Medio
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                        <label class="form-check-label" for="flexRadioDefault3">
+                            Avanzado
+                        </label>
+                    </div>
+                    <br>
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label"><b>Seleccione el archivo</b></label>
+                        <input class="form-control" type="file" id="formFile" required>
+                    </div>
+                </div>
+                <br>
+                <div class="col text-center">
+                    <button type="submit" class="btn btn-success btn-lg" id="boton" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Subir</button>
+                    <!--Esta es la Alerta-->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title dark-text" id="exampleModalLabel">¡Confirmación!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body dark-text">
+                                    El archivo ha sido guardado con éxito
+                                </div>
+                                <div class="modal-footer">
+
+                                    <button type="button" class="btn btn-primary"
+                                        data-bs-dismiss="modal">Aceptar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Esta es la Alerta-->
+                </div>
+            </form>
+        <!--/div-->
+    <!--/div-->
+   
 </div>
