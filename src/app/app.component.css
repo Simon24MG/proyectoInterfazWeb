@@ -140,3 +140,30 @@ body{margin-top:20px;}
 .border-0 {
     border: 0!important;
 }
+#formulario{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgba(240, 69, 1, 0.582);
+}
+#imagen{
+    filter: blur(2px);
+}
+#titulo{
+    font-size: 75px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 50px;
+}
+#subTitulo{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+#datosPersonales{
+    background-color: rgba(156, 44, 0, 0.582);
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
