@@ -1,0 +1,40 @@
+#formulario{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgba(255, 0, 0, 0.774);
+    /* background-color: rgba(240, 69, 1, 0.582); */
+}
+#imagen{
+    filter: blur(2px);
+}
+#titulo{
+    font-size: 75px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 50px;
+}
+#subTitulo{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+#datosPersonales{
+    /* background-color: rgba(156, 44, 0, 0.582); */
+    background-color: rgb(255, 206, 142);
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#inputGroupSelect02{
+    margin-left: 8px;
+}
+#cancion{
+    /* background-color: rgba(156, 44, 0, 0.582); */
+    background-color: rgb(255, 206, 142);
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
