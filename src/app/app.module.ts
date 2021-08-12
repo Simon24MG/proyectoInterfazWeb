@@ -7,6 +7,7 @@ import { GenerosComponent } from './generos/generos/generos.component';
 import { ArtistasComponent } from './artistas/artistas/artistas.component';
 import { RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +15,14 @@ import { LoginComponent } from './login/login.component';
     SubirTemaComponent,
     GenerosComponent,
     ArtistasComponent,
-    LoginComponent
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
+      {path: '', redirectTo: 'home', pathMatch: 'full'},
+      {path: 'home', component: HomeComponent},
       {path: 'subirTema', component: SubirTemaComponent},
       {path: 'generos', component: GenerosComponent},  
       {path: 'artistas', component: ArtistasComponent},
