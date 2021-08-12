@@ -26,4 +26,4 @@ import { MasBuscadosComponent } from './mas-buscados/mas-buscados.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { } 
