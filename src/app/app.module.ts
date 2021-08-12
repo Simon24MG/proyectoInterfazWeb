@@ -5,7 +5,8 @@ import { AppComponent } from './app.component';
 import { SubirTemaComponent } from './subirTema/subir-tema/subir-tema.component';
 import { GenerosComponent } from './generos/generos/generos.component';
 import { ArtistasComponent } from './artistas/artistas/artistas.component';
-import { MasBuscadosComponent } from './masBuscados/mas-buscados/mas-buscados.component';
+import { RouterModule } from '@angular/router';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -13,10 +14,15 @@ import { MasBuscadosComponent } from './masBuscados/mas-buscados/mas-buscados.co
     SubirTemaComponent,
     GenerosComponent,
     ArtistasComponent,
-    MasBuscadosComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot([
+      {path: 'subirTema', component: SubirTemaComponent},
+      {path: 'generos', component: GenerosComponent},  
+      {path: 'artistas', component: ArtistasComponent},
+      {path: 'login', component: LoginComponent}
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
