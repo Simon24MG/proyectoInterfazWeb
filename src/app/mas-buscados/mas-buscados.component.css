@@ -264,3 +264,11 @@
 .border-0 {
     border: 0!important;
 }
+#tarjetaMusica{
+    padding-top: 15px;
+}
+
+#bodySong{
+    padding-left: 15px;
+    padding-top: 10px;
+}

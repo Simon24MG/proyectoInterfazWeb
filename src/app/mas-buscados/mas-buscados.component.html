@@ -35,7 +35,7 @@
 
                 <div class="container">
                     <h1 id="titulo">Canciones más buscadas</h1>
-                    <div class="card">
+                    <div class="card" id="tarjetaMusica">
             
                         <div class="card mb-3" style="max-width: 540px">
                             <!--Insertar *ngFor para recorrer un arreglo que contiene las canciones mas buscadas. Como una
@@ -45,7 +45,7 @@
                                     <img src="../assets/partitura.png" class="img-fluid rounded-start" alt="WishYouWereHere">
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="card-body">
+                                    <div class="card-body" id="bodySong">
                                         <h4 class="card-title">Wish You Were Here</h4>
                                         <h5 class="card-title">Pink Floyd</h5>
                                         <p class="card-text">Subida por: Juán Perez</p>
@@ -55,14 +55,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="tarjetaMusica">
                         <div class="card mb-3" style="max-width: 540px">
                             <div class="row">
                                 <div class="col-md-6">
                                     <img src="../assets/heyYou.png" class="img-fluid rounded-start" alt="Hey You">
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="card-body">
+                                    <div class="card-body" id="bodySong">
                                         <h4 class="card-title">Hey You</h4>
                                         <h5 class="card-title">Pink Floyd</h5>
                                         <p class="card-text">Subida por: Simón Mendez</p>
@@ -72,15 +72,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="tarjetaMusica">
                         <div class="card mb-3" style="max-width: 540px">
                             <div class="row">
                                 <div class="col-md-6">
                                     <img src="../assets/tnt.png" class="img-fluid rounded-start" alt="Tnt">
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="card-body">
-                                        <h4 class="card-title">T.N.T</h4>
+                                    <div class="card-body" id="bodySong">
+                                        <h4 class="card-title">T.N.T.</h4>
                                         <h5 class="card-title">AC DC</h5>
                                         <p class="card-text">Subida por: Alejandra Ortiz</p>
                                         <p class="card-text"><small class="text-muted">Nivel de complejidad: Media </small></p>
@@ -89,14 +89,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="tarjetaMusica">
                         <div class="card mb-3" style="max-width: 540px">
                             <div class="row">
                                 <div class="col-md-6">
                                     <img src="../assets/yesterday.png" class="img-fluid rounded-start" alt="Yesterday">
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="card-body">
+                                    <div class="card-body" id="bodySong">
                                         <h4 class="card-title">Yesterday</h4>
                                         <h5 class="card-title">The Beatles</h5>
                                         <p class="card-text">Subida por: Patricio Parra</p>
@@ -106,14 +106,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="tarjetaMusica">
                         <div class="card mb-3" style="max-width: 540px">
                             <div class="row">
                                 <div class="col-md-6">
                                     <img src="../assets/back.jpg" class="img-fluid rounded-start" alt="Back in black">
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="card-body">
+                                    <div class="card-body" id="bodySong">
                                         <h4 class="card-title">Back in Black</h4>
                                         <h5 class="card-title">AC DC</h5>
                                         <p class="card-text">Subida por: Ignacio Orellana</p>
@@ -127,15 +127,15 @@
 
                 <!--Esto se deberia implementar con un ng for para mostrarse dinamicamente-->
                 <nav aria-label="Page navigation example" >
-                    <ul class="pagination justify-content-center">
+                    <ul class="pagination justify-content-center" >
                       <li class="page-item disabled">
-                        <a class="page-link" tabindex="-1" aria-disabled="true" style="background-color: rgb(118, 118, 156);">Anterior</a>
+                        <a class="page-link" tabindex="-1" aria-disabled="true" style="background-color: rgb(118, 118, 156); padding: 5px;">Anterior</a>
                       </li>
-                      <li class="page-item"><a class="page-link" style="background-color: blue;">1</a></li>
-                      <li class="page-item"><a class="page-link" style="background-color: rgb(185, 185, 255);" >2</a></li>
-                      <li class="page-item"><a class="page-link" style="background-color: rgb(185, 185, 255);">3</a></li>
+                      <li class="page-item"><a class="page-link" style="background-color: blue; padding: 5px; padding-left: 15px; padding-right: 15px;">1</a></li>
+                      <li class="page-item"><a class="page-link" style="background-color: rgb(185, 185, 255); padding: 5px; padding-left: 13px; padding-right: 13px;" >2</a></li>
+                      <li class="page-item"><a class="page-link" style="background-color: rgb(185, 185, 255); padding: 5px; padding-left: 13px; padding-right: 13px;">3</a></li>
                       <li class="page-item">
-                        <a class="page-link" style="background-color: rgb(118, 118, 156);">Siguiente</a>
+                        <a class="page-link" style="background-color: rgb(118, 118, 156); padding: 5px;">Siguiente</a>
                       </li>
                     </ul>
                   </nav>

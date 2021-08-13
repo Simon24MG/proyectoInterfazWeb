@@ -125,9 +125,7 @@
     padding-right: 10px;
     padding-top: 5px;
 }
-#inputGroupSelect02{
-    margin-left: 8px;
-}
+
 #cancion{
     /* background-color: rgba(156, 44, 0, 0.582); */
     background-color: rgb(239, 175, 170);
@@ -311,4 +309,10 @@ h2 {
 .btn-success:hover {
     border-color: #dd3d31;
     background-color: #a7140a;
+}
+#check{
+    padding-left: 25px;
+}
+#boton{
+    padding: 10px;
 }
