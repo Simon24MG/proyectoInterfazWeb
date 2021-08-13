@@ -116,21 +116,31 @@
 
 /***************************************************************/
 
-
-
-
-#datosPersonales{
-    
+#datosPersonales{    
     background-color: rgb(239, 175, 170);
     padding: 20px;
 }
 
-#cancion{
-   
+#datos #datosPersonales .form-group .form-control{
+  padding-left: 7px;
+}
+
+#cancion{   
     background-color: rgb(239, 175, 170);
     padding: 20px;
 }
- 
+
+#datos #cancion .form-group .form-control{
+  padding-left: 7px;
+}
+
+#datos .input-group #inputGroupSelect02{
+  padding-left: 7px;
+} 
+
+#datos .mb-3 .form-control{
+  padding-left: 7px;
+} 
 
 #boton{
     padding: 10px;
@@ -139,20 +149,22 @@
     color: #494a4b;
     text-align: center; 
     padding-bottom: 15px;
-    padding-top: 15px;
-       
+    padding-top: 15px;       
 }
+
 #subTitle{
     color: #494a4b;
     text-align: center;
     padding-bottom: 30px;
 }
+
 #datos{
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 30px;
 
 }
+
 #check{
     padding-left: 25px;
 }

@@ -116,6 +116,14 @@
 
 /************************************/
 
+.home-section #searchBox .col-md-11 .form-control{
+  padding: 7px;
+}
+
+.home-section #searchBox .col-md-1 .btn{
+  padding: 7px;
+}
+
 .masthead {
     padding: 2em;
     position: relative;
