@@ -37,11 +37,17 @@
   opacity: 1;
 }
 
+.sidebar .logo-details .logo_name a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 35px;
+}
+
 .sidebar i{
   color: #fff;
   height: 60px;
   min-width: 50px;
-  font-size: 28px;
+  font-size: 45px;
   text-align: center;
   line-height: 60px;
 }
